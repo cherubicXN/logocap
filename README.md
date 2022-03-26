@@ -22,13 +22,11 @@ conda activate logocap
 Download [COCO](https://cocodataset.org/#download) and [OCHuman](https://github.com/liruilong940607/OCHumanApi) datasets into the  ``data directory`` with the following structure:
 ```
 |-- data
-|   |-- coco -> /home/xn/datasets/coco
+|   |-- coco
 |   |   |-- annotations
-|   |   |-- coco-wf-val.json
 |   |   |-- images
 |   |-- OCHuman 
 |       |-- annotations
-|       |-- eval
 |       |-- images
 ```
 
