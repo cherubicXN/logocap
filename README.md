@@ -66,3 +66,8 @@ booktitle = "IEEE Conference on Computer Vision and Pattern Recognition (CVPR)",
 year = {2022},
 }
 ```
+
+## Acknowledgement
+
+Our code is based on [DEKR](https://github.com/HRNet/DEKR). We thank Linxi Huan, Liang
+Dong, Fudong Wang and the anonymous reviewers for their helpful discussions and comments.
