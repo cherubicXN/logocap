@@ -16,6 +16,22 @@ With a new and strong observation that the localization issue of the center-offs
 conda env create -f environment.yml
 conda activate logocap
 ```
+
+## Data Preparation 
+
+Download [COCO](https://cocodataset.org/#download) and [OCHuman](https://github.com/liruilong940607/OCHumanApi) datasets into the  ``data directory`` with the following structure:
+```
+|-- data
+|   |-- coco -> /home/xn/datasets/coco
+|   |   |-- annotations
+|   |   |-- coco-wf-val.json
+|   |   |-- images
+|   |-- OCHuman 
+|       |-- annotations
+|       |-- eval
+|       |-- images
+```
+
 ## Citations
 If you find our work useful in your research, please consider citing:
 ```
