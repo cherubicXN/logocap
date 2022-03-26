@@ -39,6 +39,23 @@ sh download.sh
 cd ..
 ```
 
+## Quickstart
+
+After you prepared the COCO dataset on your machine, you can run the following command lines to evaluate our models on the COCO-val-2017 dataset.
+
+```
+# HRNet-W32 backbone
+python tools/test.py --cfg experiments/logocap-hrnet-w32-coco.yaml --ckpt weights/logocap/logocap-hrnet-w32-coco.pth.tar
+
+# HRNet-W48 backbone
+python tools/test.py --cfg experiments/logocap-hrnet-w48-coco.yaml --ckpt weights/logocap/logocap-hrnet-w48-coco.pth.tar
+```
+
+## TODO List
+- Training scripts
+- README.md
+- Visualization code
+
 ## Citations
 If you find our work useful in your research, please consider citing:
 ```
