@@ -1,4 +1,4 @@
-name: logocap
+name: logocap-temp
 channels:
   - pytorch
   - pytorch-lts
@@ -75,12 +75,10 @@ dependencies:
   - zlib=1.2.11=h7b6447c_3
   - zstd=1.4.9=haebb681_0
   - pip:
-    - apex==0.1
     - charset-normalizer==2.0.6
     - click==8.0.1
     - colorcet==2.0.6
     - configparser==5.0.2
-    - crowdposetools==2.0
     - cycler==0.10.0
     - cython==0.29.24
     - docker-pycreds==0.4.0
