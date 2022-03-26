@@ -30,6 +30,15 @@ Download [COCO](https://cocodataset.org/#download) and [OCHuman](https://github.
 |       |-- images
 ```
 
+## Model Weights for Training and Testing
+
+Download the pretrain models of HRNet backbones for training and the trained models of our LOGO-CAP with HRNet backbones by the following scripts.
+```
+cd weights
+sh download.sh
+cd ..
+```
+
 ## Citations
 If you find our work useful in your research, please consider citing:
 ```
